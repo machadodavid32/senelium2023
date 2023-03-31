@@ -55,6 +55,38 @@ sleep(2)
 botao_busca.click()
 sleep(8)
 
+# Xpath dos EStados:
+
+acre = driver.find_element(By.XPATH, "//a[text()='Acre']") 
+acre.click()
+
+# Alagoas:  //a[text()='Alagoas']
+# Amapá:  //a[text()='Amapá']
+# Amazonas: //a[text()='Amazonas']
+# Bahia:  //a[text()='Bahia']
+# Ceara: //a[text()='Ceará']
+# Distrito Federal:  //a[text()='Distrito Federal']
+# espirito_santo: //a[text()='Espírito Santo']
+# goias:  //a[text()='Goiás']
+# maranhao:  //a[text()='Maranhão']
+# mato_grosso:  //a[text()='Mato Grosso'] 
+# mato_grosso_sul:  //a[text()='Mato Grosso do Sul']  
+# minas:  //a[text()='Minas Gerais']
+# para:  //a[text()='Pará']
+# paraiba:  //a[text()='Paraíba']
+# parana:  //a[text()='Paraná']
+# pernanbuco:  //a[text()='Pernambuco']
+# piaui:  //a[text()='Piauí']
+# rio:  //a[text()='Rio de Janeiro']
+# rio_grande_norte:  //a[text()='Rio Grande do Norte']
+# rio_grand_sul:  //a[text()='Rio Grande do Sul']
+# rondonia:  //a[text()='Rondônia']
+# roraima:  //a[text()='Roraima']
+# santa_catarina: //a[text()='Santa Catarina']
+# sao_paulo: //a[text()='São Paulo']
+# sergipe:  //a[text()='Sergipe']
+# tocantins: // //a[text()='Tocantins']
+
 espirito_santo = driver.find_element(By.XPATH, "//a[text()='Espírito Santo']") 
 sleep(1)
 
